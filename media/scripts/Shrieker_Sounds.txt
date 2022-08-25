@@ -1,0 +1,9 @@
+module Base {
+
+    sound Shrieker_Shriek
+    {
+        category = ShriekerDetectionEvent, loop = false, is3D = true,
+        clip { file = media/sound/Shrieker/shriek1.ogg, distanceMax = 400, volume = 0.5, }
+    }
+
+}
